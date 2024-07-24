@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-image: url('imagens/fundo-preto.jpeg');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header h1 {
+    text-align: center;
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+section {
+    margin-bottom: 20px;
+}
+
+.portfolio-item {
+    background: #f4f4f4;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+main {
+    background-color: white;
+    width: 400px;
+    height: 70vh;
+    padding: 32px;
+    margin: auto;
+    border: 1px solid darkblue;
+    border-radius: 15px;
+}
+
+img#foto {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
